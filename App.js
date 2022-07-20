@@ -5,6 +5,8 @@ import { View } from 'react-native'
         flex: 1 2 3 4 (proporcional)
         flexDirection: 'row' 'row-reverse' 'column' 'column-reverse' 
         justifyContent: 'flex-start' 'flex-end' 'center' 'space-between' 'space-around'
+        alignItems: 'flex-start' 'flex-end' 'center' 'stretch' 'baseline' (ajusta no eixo secundario {o contrario do justify})
+        se o flexDirection == row { justifyContent == row, alignItems == column}
 **/
 
 const App = () => {
